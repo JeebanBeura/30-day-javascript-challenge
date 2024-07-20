@@ -8,19 +8,19 @@ console.log("last elemet is: ", numberArr[4]);
 // Activity 2:
 // Task 3:
 const nameArr = ["decoding", "life", "jeeban", "chinu", "rabi", "silan", "babul"];
-console.log("Befour push element original nameArr is : ", nameArr);
+console.log("Before  push element original nameArr is : ", nameArr);
 nameArr.push("biswajit");
 console.log("After push element nameArr is : ", nameArr);
 // Task 4:
-console.log("Befour pop element original nameArr is : ", nameArr);
+console.log("Before  pop element original nameArr is : ", nameArr);
 nameArr.pop();
 console.log("After pop element nameArr is : ", nameArr);
 // Task 5:
-console.log("Befour shift element original nameArr is : ", nameArr);
+console.log("Before shift element original nameArr is : ", nameArr);
 nameArr.shift();
 console.log("After shift element nameArr is : ", nameArr);
 // Task 6:
-console.log("Befour unShift element original nameArr is : ", nameArr);
+console.log("Before  unShift element original nameArr is : ", nameArr);
 nameArr.unshift("biswajit");
 console.log("After unShift element nameArr is : ", nameArr);
 // Activity 3:
@@ -34,6 +34,7 @@ const filterName = nameArr.filter((ele) => {
     return ele.includes("b");
 });
 console.log("use filter ",filterName);
+
 // Task 9:
 let sum = numberArr.reduce((acc,curr) =>{
     return acc + curr;
